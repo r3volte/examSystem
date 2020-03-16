@@ -1,0 +1,69 @@
+.questions-label {
+    font-weight: bold;
+}
+
+.question-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.background-color {
+    background-color: #f0f8ff;
+}
+
+.not-style {
+    width: 300px;
+    height: 800px;
+}
+
+.label-name {
+    font-size: 18px;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: -5px;
+
+}
+
+.hr-line {
+    color: black;
+    font-weight: bold;
+    size: 5px;
+}
+
+.main-menu-label {
+    font-weight: bold;
+    font-size: 20px;
+    font-palette: dark;
+    margin-left: 20px;
+    text-shadow: 2px 2px;
+}
+
+.logout-button {
+    background: none;
+    margin-right: 2px;
+}
+
+.main-version-label {
+    font-weight: bolder;
+    margin-left: 170px;
+    font-size: 11px;
+}
+
+.my-grid {
+    font-size: 13px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.my-grid .my-grid-header {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.v-grid-row.green .v-grid-cell {
+    background: green;
+}
+
+.v-grid-row.red .v-grid-cell {
+    background: red;
+}
