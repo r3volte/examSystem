@@ -1,5 +1,9 @@
 package examsystem.frontend.mainlayout;
 
+import static com.github.appreciated.app.layout.entity.Section.FOOTER;
+import static com.github.appreciated.app.layout.entity.Section.HEADER;
+import static examsystem.frontend.uiutils.prop.MainLayoutProp.*;
+import static examsystem.frontend.uiutils.prop.PageTittle.SUPERIORS;
 
 import com.github.appreciated.app.layout.component.appbar.AppBarBuilder;
 import com.github.appreciated.app.layout.component.applayout.LeftLayouts;
@@ -16,10 +20,6 @@ import com.vaadin.flow.spring.annotation.UIScope;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import static com.github.appreciated.app.layout.entity.Section.FOOTER;
-import static com.github.appreciated.app.layout.entity.Section.HEADER;
-import static examsystem.frontend.uiutils.prop.MainLayoutProp.*;
-import static examsystem.frontend.uiutils.prop.PageTittle.SUPERIORS;
 
 @Push
 @Viewport(VIEWPORT)

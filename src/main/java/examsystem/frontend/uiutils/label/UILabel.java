@@ -21,4 +21,6 @@ public class UILabel {
     return label;
   }
 
+  public UILabel() {
+  }
 }

@@ -37,8 +37,8 @@ public class MailServiceImpl {
                                                  MimeMessage message) throws MessagingException {
     MimeMessageHelper helper = new MimeMessageHelper(message, true);
     helper.setTo(email);
-    helper.setSubject(EMAIl_SUBJECT);
-    helper.setText(EMAIl_SUBJECT);
+    helper.setSubject(SUBJECT);
+    helper.setText(SUBJECT);
     return helper;
   }
 

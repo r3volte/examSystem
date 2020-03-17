@@ -11,7 +11,7 @@ public class MailProp {
   public static final String SMTP = "smtp";
   public static final String AUTH = "mail.smtp.auth";
   public static final String STARTTLS = "mail.smtp.starttls.enable";
-  public static final String EMAIl_SUBJECT = "Wynik Testu.";
+  public static final String SUBJECT = "Wynik Testu.";
   public static final String PATH_TO_ATTACHMENT = "src/main/resources/report.pdf";
   public static final String FILE_NAME = "Wynik_Testu.pdf";
 

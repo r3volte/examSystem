@@ -1,11 +1,12 @@
 package examsystem.frontend.uiutils.button;
 
+import static com.vaadin.flow.component.UI.getCurrent;
+import static examsystem.frontend.uiutils.button.UIButtonProp.*;
+
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.icon.Icon;
 import com.vaadin.flow.component.icon.VaadinIcon;
 
-import static com.vaadin.flow.component.UI.getCurrent;
-import static examsystem.frontend.uiutils.button.UIButtonProp.*;
 
 public class UIButton {
 
@@ -33,5 +34,8 @@ public class UIButton {
           VaadinIcon icon) {
     Icon i = new Icon(icon);
     return new Button(i);
+  }
+
+  private UIButton() {
   }
 }

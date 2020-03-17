@@ -1,5 +1,10 @@
 package examsystem.frontend.mainlayout;
 
+import static examsystem.frontend.uiutils.label.UILabelProp.MENU_LABEL;
+import static examsystem.frontend.uiutils.label.UILabelProp.VERSION_LABEL;
+import static examsystem.frontend.uiutils.prop.MainLayoutProp.VERSION;
+import static examsystem.frontend.uiutils.prop.PageTittle.*;
+
 import com.github.appreciated.app.layout.component.menu.left.items.LeftNavigationItem;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Image;
@@ -9,16 +14,13 @@ import examsystem.frontend.home.HomePage;
 import examsystem.frontend.superior.SuperiorPage;
 import examsystem.frontend.uiutils.button.UIButton;
 import examsystem.frontend.uiutils.label.UILabel;
+import java.io.Serializable;
 import org.springframework.stereotype.Component;
 
-import static examsystem.frontend.uiutils.label.UILabelProp.MENU_LABEL;
-import static examsystem.frontend.uiutils.label.UILabelProp.VERSION_LABEL;
-import static examsystem.frontend.uiutils.prop.MainLayoutProp.VERSION;
-import static examsystem.frontend.uiutils.prop.PageTittle.*;
 
 
 @Component
-public class MainViewComponents {
+public class MainViewComponents implements Serializable {
 
   public static final String LOGO_SCHENKER = "/frontend/images/logo.png";
   private static final String WIDTH = "200px";
