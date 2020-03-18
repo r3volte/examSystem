@@ -13,11 +13,6 @@ public class UtilsView {
   public static final String USER_CANCEL = "Anuluj";
   public static final String USER_DELETE = "Usuń";
   public static final String USER_ADD = "Dodaj";
-  public static final String FIRST_NAME_ERROR = "Proszę o wpisanie imienia";
-  public static final String SECOND_NAME_ERROR = "Proszę o wpisanie nazwiska";
-  public static final String UNIT_NAME_ERROR = "Proszę o wybrane jednostki";
-  public static final String UNIT_EMAIL_ERROR = "Proszę o wpisanie email";
-  public static final String CATEGORY_NAME_ERROR = "Proszę o wpisanie kategorii";
   public static final String UNIT_NAME_SURNAME = "Imię i Nazwisko";
   public static final String UNIT_TRAINER = "Trener";
   public static final String UNIT_CATEGORY = "Kategoria";

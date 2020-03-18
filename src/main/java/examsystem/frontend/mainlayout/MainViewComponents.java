@@ -1,30 +1,31 @@
 package examsystem.frontend.mainlayout;
 
-import static examsystem.frontend.uiutils.label.UILabelProp.MENU_LABEL;
-import static examsystem.frontend.uiutils.label.UILabelProp.VERSION_LABEL;
-import static examsystem.frontend.uiutils.prop.MainLayoutProp.VERSION;
-import static examsystem.frontend.uiutils.prop.PageTittle.*;
-
 import com.github.appreciated.app.layout.component.menu.left.items.LeftNavigationItem;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.html.Label;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import examsystem.frontend.home.HomePage;
+import examsystem.frontend.superior.SuperiorAddPage;
 import examsystem.frontend.superior.SuperiorPage;
 import examsystem.frontend.uiutils.button.UIButton;
 import examsystem.frontend.uiutils.label.UILabel;
-import java.io.Serializable;
 import org.springframework.stereotype.Component;
 
+import java.io.Serializable;
+
+import static examsystem.frontend.uiutils.label.UILabelProp.MENU_LABEL;
+import static examsystem.frontend.uiutils.label.UILabelProp.VERSION_LABEL;
+import static examsystem.frontend.uiutils.prop.MainLayoutProp.VERSION;
+import static examsystem.frontend.uiutils.prop.PageTittle.*;
+import static examsystem.frontend.uiutils.prop.WidthAndHeight.HEIGHT_100;
+import static examsystem.frontend.uiutils.prop.WidthAndHeight.WIDTH_200;
 
 
 @Component
 public class MainViewComponents implements Serializable {
 
   public static final String LOGO_SCHENKER = "/frontend/images/logo.png";
-  private static final String WIDTH = "200px";
-  private static final String HEIGHT = "100px";
 
   public Button getButton() {
     return UIButton.createLogoutButton();
@@ -33,8 +34,8 @@ public class MainViewComponents implements Serializable {
   public Image logoImage() {
     Image image = new Image();
     image.setSrc(LOGO_SCHENKER);
-    image.setHeight(HEIGHT);
-    image.setWidth(WIDTH);
+    image.setHeight(HEIGHT_100);
+    image.setWidth(WIDTH_200);
     return image;
   }
 
@@ -52,6 +53,12 @@ public class MainViewComponents implements Serializable {
     return new LeftNavigationItem(SUPERIORS,
             VaadinIcon.SPECIALIST.create(),
             SuperiorPage.class);
+  }
+
+  public LeftNavigationItem addSuperiorSubMenu() {
+    return new LeftNavigationItem(SUPERIOR_ADD,
+            VaadinIcon.PLUS.create(),
+            SuperiorAddPage.class);
   }
 
 

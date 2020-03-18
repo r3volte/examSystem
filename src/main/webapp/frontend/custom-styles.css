@@ -1,3 +1,28 @@
+/* Buttons */
+
+.logout-button {
+    background: none;
+    margin-right: 2px;
+}
+
+.submit-button {
+    font-weight: bold;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 20px;
+    background-color: #0d3349;
+}
+
+/* Horizontal Line */
+
+.hr-line {
+    color: black;
+    font-weight: bold;
+    size: 5px;
+}
+
+/* Labels */
+
 .questions-label {
     font-weight: bold;
 }
@@ -7,27 +32,11 @@
     font-weight: bold;
 }
 
-.background-color {
-    background-color: #f0f8ff;
-}
-
-.not-style {
-    width: 300px;
-    height: 800px;
-}
-
 .label-name {
     font-size: 18px;
     font-family: "Dosis", Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: -5px;
-
-}
-
-.hr-line {
-    color: black;
-    font-weight: bold;
-    size: 5px;
 }
 
 .main-menu-label {
@@ -38,21 +47,47 @@
     text-shadow: 2px 2px;
 }
 
-.logout-button {
-    background: none;
-    margin-right: 2px;
-}
-
 .main-version-label {
     font-weight: bolder;
     margin-left: 170px;
     font-size: 11px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background-color {
+    background-color: #f0f8ff;
+}
+
+.not-style {
+    width: 300px;
+    height: 800px;
+}
+
 .my-grid {
     font-size: 13px;
     border-style: solid;
     border-width: 1px;
+}
+
+.my-form {
+    border: 2px solid #0d3349;
+    margin: auto;
+    padding: 30px 20px;
+    border-radius: 25px;
+    box-shadow: -11px 9px 5px 1px #888888;
+    background-color: white;
 }
 
 .my-grid .my-grid-header {

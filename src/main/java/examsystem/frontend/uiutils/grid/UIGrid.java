@@ -6,7 +6,7 @@ import examsystem.backend.dto.SuperiorDTO;
 import java.util.List;
 
 import static com.vaadin.flow.component.grid.GridVariant.LUMO_ROW_STRIPES;
-import static examsystem.frontend.uiutils.grid.UIGridProp.GRID_CLASSNAME;
+import static examsystem.frontend.uiutils.prop.ComponentsCss.GRID_CLASSNAME;
 
 public class UIGrid {
 

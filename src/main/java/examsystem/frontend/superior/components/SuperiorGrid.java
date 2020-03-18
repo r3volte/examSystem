@@ -7,7 +7,7 @@ import examsystem.frontend.uiutils.grid.UIGrid;
 import org.springframework.stereotype.Component;
 
 import static examsystem.frontend.uiutils.prop.UtilsView.*;
-import static examsystem.frontend.uiutils.prop.Widths.*;
+import static examsystem.frontend.uiutils.prop.WidthAndHeight.*;
 
 @Component
 public class SuperiorGrid {
